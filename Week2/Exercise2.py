@@ -45,11 +45,11 @@ def temp_to_category(deg):
 
 def convert2arff(num_of_files):
     for ward in range(1, num_of_files + 1):
-        fout = open("temp" + str(ward) + ".txt", "w")
+        fout = open("temp" + str(ward) + ".arff", "w")
         fout.write("@relation patients_temperatures\n")
         fout.write("@attribute patients_ID numeric\n")
         fout.write("@attribute time numeric\n")
-        fout.write("@attribute temperature numeric\n\n")
+        fout.write("@attribute temperature {High, Low}\n\n")
         fout.write("@data\n")
         fin = open(str(ward) + ".txt", "r")
         for time in range(60 * 12):  # from 00:00 to 11:59 = 60 mins * 12 hours
