@@ -196,7 +196,7 @@ def threshold(train_fns, test_fns, depth):
     best_shade = 0
     best_percentage = 0
     #for i in range(256):
-    for i in range(121, 124, 2):
+    for i in range(31, 35):
         # idx2txt("train-images.idx3-ubyte", "train-labels.idx1-ubyte", i)
         idx2txt(train_fns[0], train_fns[1], i, 'data.txt')
         idx2txt(test_fns[0], test_fns[1], i, 'test.txt')
@@ -220,11 +220,29 @@ if __name__ == '__main__':
 
 
     threshold(['train-images.idx3-ubyte', 'train-labels.idx1-ubyte'], ['t10k-images.idx3-ubyte', 't10k-labels.idx1-ubyte'], 27)
-
-    #completed checking shade 130, percentage: 80.71
-    #completed checking shade 120, percentage: 81.03
-    #completed checking shade 122, percentage: 81.35
-    #completed checking shade 124, percentage: 80.96
+    # completed checking shade 20, percentage: 83.86
+    # completed checking shade 25, percentage: 83.6
+    # completed checking shade 26, percentage: 83.78
+    # completed checking shade 27, percentage: 83.9
+    # completed checking shade 28, percentage: 84.14
+    # completed checking shade 29, percentage: 83.93
+    # completed checking shade 30, percentage: 84.25
+    # completed checking shade 31, percentage: 83.59
+    # completed checking shade 32, percentage: 83.88
+    # completed checking shade 33, percentage: 83.86
+    # completed checking shade 40, percentage: 83.47
+    # completed checking shade 45, percentage: 83.73
+    # completed checking shade 50, percentage: 83.82
+    # completed checking shade 60, percentage: 83.13
+    # completed checking shade 65, percentage: 82.97
+    # completed checking shade 70, percentage: 82.62
+    # completed checking shade 100, percentage: 81.57
+    # completed checking shade 105, percentage: 81.41
+    # completed checking shade 120, percentage: 81.03
+    # completed checking shade 122, percentage: 81.35
+    # completed checking shade 123, percentage: 80.79
+    # completed checking shade 124, percentage: 80.96
+    # completed checking shade 130, percentage: 80.71
 
 
 

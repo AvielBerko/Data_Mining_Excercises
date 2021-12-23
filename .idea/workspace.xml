@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1834f1f-2818-4ccc-9a7d-4986fadfe5d5" name="Changes" comment="Added functions + run">
+    <list default="true" id="d1834f1f-2818-4ccc-9a7d-4986fadfe5d5" name="Changes" comment="Added functions for exercise 4">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week7/Exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week7/Exercise4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week7/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Week7/data.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640203147202</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added functions for exercise 4">
+      <created>1640208807741</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1640208807741</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,7 +258,8 @@
     <MESSAGE value="Converting dataset to pngs" />
     <MESSAGE value="Created dataset as data.txt" />
     <MESSAGE value="Added functions + run" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added functions + run" />
+    <MESSAGE value="Added functions for exercise 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added functions for exercise 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
